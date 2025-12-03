@@ -2,9 +2,9 @@
 
 ## 快速导航
 
-1. [核心功能](http://www.luogu.com.cn/“m" )
-2. [原理](http://www.luogu.com.cn/“m")
-3. [快速开始](http://www.luogu.com.cn/“m")
+1. [核心功能](https://github.com/zuojiarui1027/luogu-auto-daily-attendance/?tab=readme-ov-file#核心功能 "核心功能")
+2. [原理](https://github.com/zuojiarui1027/luogu-auto-daily-attendance/?tab=readme-ov-file#原理 "原理")
+3. [快速开始](https://github.com/zuojiarui1027/luogu-auto-daily-attendance/?tab=readme-ov-file#快速开始 "快速开始")
 
 - 感谢**为项目点 star** 的观众们，**fork** 你所欲也，**star** 我所欲也，两者得兼😍是对开源精神最好的支持;
 
