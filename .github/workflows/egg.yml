@@ -1,0 +1,22 @@
+name: a
+
+on:
+
+  schedule:
+   - cron: "30 15 * * *"
+
+jobs:
+    job1:
+        runs-on: windows-2025
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v6.0.0
+            - name: Set up Python
+              uses: actions/setup-python@v2 # 用于设置 Python 环境，它允许你指定要在工作环境中使用的 Python 版本
+              with:
+                
+                python-version: '3.9'  # 选择要用的Python版本
+            - run: pip install requests
+            
+
+            - run: python ./a.py ${{ secrets.UID }} ${{ secrets.CLIENT_ID }} ${{ secrets.C3VK }}
